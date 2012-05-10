@@ -22,4 +22,4 @@ The spotlight overlay is useful in isolating specific aspects of an iPhone view 
 
 ### Screenshot
 
-![Spotlight in action](Spotlight/spotlight-screenshot.png "Spotlight in action")
+![Spotlight in action](iphone-spotlight/blob/master/Spotlight/spotlight-screenshot.png "Spotlight in action")
