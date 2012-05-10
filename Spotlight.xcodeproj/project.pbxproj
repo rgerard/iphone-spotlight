@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94222942155B97B8007FB89E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94222941155B97B8007FB89E /* UIKit.framework */; };
+		94222944155B97B8007FB89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94222943155B97B8007FB89E /* Foundation.framework */; };
+		94222946155B97B8007FB89E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94222945155B97B8007FB89E /* CoreGraphics.framework */; };
+		9422294C155B97B8007FB89E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9422294A155B97B8007FB89E /* InfoPlist.strings */; };
+		9422294E155B97B8007FB89E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422294D155B97B8007FB89E /* main.m */; };
+		94222952155B97B8007FB89E /* SpotlightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94222951155B97B8007FB89E /* SpotlightAppDelegate.m */; };
+		94222955155B97B8007FB89E /* SpotlightViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 94222954155B97B8007FB89E /* SpotlightViewControllerDemo.m */; };
+		94222958155B97B8007FB89E /* SpotlightViewControllerDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94222956155B97B8007FB89E /* SpotlightViewControllerDemo.xib */; };
+		9422295F155B980F007FB89E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9422295E155B980F007FB89E /* QuartzCore.framework */; };
+		94222962155B9857007FB89E /* SpotlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94222961155B9857007FB89E /* SpotlightViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9422293D155B97B8007FB89E /* Spotlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94222941155B97B8007FB89E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94222943155B97B8007FB89E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94222945155B97B8007FB89E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94222949155B97B8007FB89E /* Spotlight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spotlight-Info.plist"; sourceTree = "<group>"; };
+		9422294B155B97B8007FB89E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9422294D155B97B8007FB89E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9422294F155B97B8007FB89E /* Spotlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spotlight-Prefix.pch"; sourceTree = "<group>"; };
+		94222950155B97B8007FB89E /* SpotlightAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotlightAppDelegate.h; sourceTree = "<group>"; };
+		94222951155B97B8007FB89E /* SpotlightAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightAppDelegate.m; sourceTree = "<group>"; };
+		94222953155B97B8007FB89E /* SpotlightViewControllerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotlightViewControllerDemo.h; sourceTree = "<group>"; };
+		94222954155B97B8007FB89E /* SpotlightViewControllerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightViewControllerDemo.m; sourceTree = "<group>"; };
+		94222957155B97B8007FB89E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpotlightViewControllerDemo.xib; sourceTree = "<group>"; };
+		9422295E155B980F007FB89E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94222960155B9857007FB89E /* SpotlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotlightViewController.h; sourceTree = "<group>"; };
+		94222961155B9857007FB89E /* SpotlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotlightViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9422293A155B97B8007FB89E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9422295F155B980F007FB89E /* QuartzCore.framework in Frameworks */,
+				94222942155B97B8007FB89E /* UIKit.framework in Frameworks */,
+				94222944155B97B8007FB89E /* Foundation.framework in Frameworks */,
+				94222946155B97B8007FB89E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94222932155B97B8007FB89E = {
+			isa = PBXGroup;
+			children = (
+				94222947155B97B8007FB89E /* Spotlight */,
+				94222940155B97B8007FB89E /* Frameworks */,
+				9422293E155B97B8007FB89E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9422293E155B97B8007FB89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9422293D155B97B8007FB89E /* Spotlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94222940155B97B8007FB89E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9422295E155B980F007FB89E /* QuartzCore.framework */,
+				94222941155B97B8007FB89E /* UIKit.framework */,
+				94222943155B97B8007FB89E /* Foundation.framework */,
+				94222945155B97B8007FB89E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94222947155B97B8007FB89E /* Spotlight */ = {
+			isa = PBXGroup;
+			children = (
+				94222950155B97B8007FB89E /* SpotlightAppDelegate.h */,
+				94222951155B97B8007FB89E /* SpotlightAppDelegate.m */,
+				94222953155B97B8007FB89E /* SpotlightViewControllerDemo.h */,
+				94222954155B97B8007FB89E /* SpotlightViewControllerDemo.m */,
+				94222956155B97B8007FB89E /* SpotlightViewControllerDemo.xib */,
+				94222960155B9857007FB89E /* SpotlightViewController.h */,
+				94222961155B9857007FB89E /* SpotlightViewController.m */,
+				94222948155B97B8007FB89E /* Supporting Files */,
+			);
+			path = Spotlight;
+			sourceTree = "<group>";
+		};
+		94222948155B97B8007FB89E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94222949155B97B8007FB89E /* Spotlight-Info.plist */,
+				9422294A155B97B8007FB89E /* InfoPlist.strings */,
+				9422294D155B97B8007FB89E /* main.m */,
+				9422294F155B97B8007FB89E /* Spotlight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9422293C155B97B8007FB89E /* Spotlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9422295B155B97B8007FB89E /* Build configuration list for PBXNativeTarget "Spotlight" */;
+			buildPhases = (
+				94222939155B97B8007FB89E /* Sources */,
+				9422293A155B97B8007FB89E /* Frameworks */,
+				9422293B155B97B8007FB89E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotlight;
+			productName = Spotlight;
+			productReference = 9422293D155B97B8007FB89E /* Spotlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94222934155B97B8007FB89E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Spotlight;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 94222937155B97B8007FB89E /* Build configuration list for PBXProject "Spotlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94222932155B97B8007FB89E;
+			productRefGroup = 9422293E155B97B8007FB89E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9422293C155B97B8007FB89E /* Spotlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9422293B155B97B8007FB89E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9422294C155B97B8007FB89E /* InfoPlist.strings in Resources */,
+				94222958155B97B8007FB89E /* SpotlightViewControllerDemo.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94222939155B97B8007FB89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9422294E155B97B8007FB89E /* main.m in Sources */,
+				94222952155B97B8007FB89E /* SpotlightAppDelegate.m in Sources */,
+				94222955155B97B8007FB89E /* SpotlightViewControllerDemo.m in Sources */,
+				94222962155B9857007FB89E /* SpotlightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9422294A155B97B8007FB89E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9422294B155B97B8007FB89E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94222956155B97B8007FB89E /* SpotlightViewControllerDemo.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94222957155B97B8007FB89E /* en */,
+			);
+			name = SpotlightViewControllerDemo.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94222959155B97B8007FB89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9422295A155B97B8007FB89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9422295C155B97B8007FB89E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spotlight/Spotlight-Prefix.pch";
+				INFOPLIST_FILE = "Spotlight/Spotlight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9422295D155B97B8007FB89E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spotlight/Spotlight-Prefix.pch";
+				INFOPLIST_FILE = "Spotlight/Spotlight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94222937155B97B8007FB89E /* Build configuration list for PBXProject "Spotlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94222959155B97B8007FB89E /* Debug */,
+				9422295A155B97B8007FB89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9422295B155B97B8007FB89E /* Build configuration list for PBXNativeTarget "Spotlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9422295C155B97B8007FB89E /* Debug */,
+				9422295D155B97B8007FB89E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94222934155B97B8007FB89E /* Project object */;
+}
